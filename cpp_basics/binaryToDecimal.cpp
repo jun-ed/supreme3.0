@@ -30,5 +30,5 @@ int bitwiseBinaryToDecimal(int n){
 
 int main(){
     int n=101;
-    cout<< bitwiseBinaryToDecimal(n)<<endl;
+    cout<< binaryToDecimal(n)<<endl;
 }
