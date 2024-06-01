@@ -22,6 +22,28 @@ void count(int arr[], int n){
     }
 }
 
+
+void swapZO(int arr[], int n){
+    int low = 0;
+    int high = n-1;
+
+    while(low <= high){
+        if(arr[low] == 0){
+            low++;
+        }
+        else if(arr[high] == 1){
+            high--;
+        }
+        else{
+            swap(arr[low], arr[high]);
+            low++;
+            high--;
+        }
+    }
+    cout<<"swapZO"<<endl;
+}
+
+
 void print(int arr[], int n){
     for(int i=0; i<n; ++i){
         cout<<arr[i]<<" ";
@@ -31,6 +53,7 @@ void print(int arr[], int n){
 
 int main(){
     int arr[] = {1,0,1,0,0,1,1,1};
-    count(arr, 8);
+    // count(arr, 8);
+    swapZO(arr, 8);
     print(arr, 8);
 }

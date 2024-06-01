@@ -23,15 +23,6 @@ void colSum(int arr[][4], int n){
     }
 }
 
-void diagnolSum(int arr[][4], int n){
-    int sum=0;
-    for(int i=0; i<n; ++i){
-        sum = sum + arr[i][i];
-    }
-    cout<<"Diagnol Sum of matrix is: "<< sum<<endl;
-}
-
-
 int main(){
     int arr[4][4] = {
                     {10,20,3,40},
