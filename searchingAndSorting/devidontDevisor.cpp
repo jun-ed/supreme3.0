@@ -4,7 +4,7 @@ using namespace std;
 int getQuotient(int devident, int devisor){
     int start = 0;
     int end = devident;
-    int ans = -1;
+    int ans = -1;//
     while(start <= end){
         int mid = start + (end - start)/2;
         cout<<"mid->"<<mid<<endl;
