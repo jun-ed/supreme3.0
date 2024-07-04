@@ -1,0 +1,478 @@
+Question 1
+What will be the output of the following code snippet?
+#include <iostream>
+int main() {
+    int a = 10;
+    int *p = &a;
+    *p = 20;
+    std::cout << a << std::endl;
+    return 0;
+}
+a)10
+b) 20
+c) 0
+d) Undefined behavior
+
+
+Question 2
+Given the following code, what is the type of the expression *(arr + 1)?
+int arr[] = {1, 2, 3, 4, 5};
+a) int
+b) int*
+c) int**
+d) int&
+
+
+Question 3
+What is the output of the following program?
+#include <iostream>
+void increment(int *p) {
+    (*p)++;
+}
+int main() {
+    int a = 5;
+    increment(&a);
+    std::cout << a;
+    return 0;
+}
+a) 5
+b) 6
+c) 0
+d) Undefined behavior
+
+
+Question 4
+What is the result of the following code snippet?
+#include <iostream>
+int main() {
+    int x = 10;
+    int *p = &x;
+    *p = *p + 10;
+    std::cout << *p << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) 0
+d) Undefined behavior
+
+
+Question 5
+What does the following code output?
+#include <iostream>
+int main() {
+    int x = 5;
+    int *p = &x;
+    int **pp = &p;
+    **pp = 6;
+    std::cout << x << std::endl;
+    return 0;
+}
+a) 5
+b) 6
+c) 0
+d) Undefined behavior
+
+
+Question 6
+Which of the following expressions is invalid? 
+a) int *p = new int[10];
+b) int **p = new int*[10];
+c) int *p = new int();
+d) int **p = new int();
+
+
+Question 7
+What is the output of the following code?
+#include <iostream>
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int *p = arr;
+    p += 2;
+    std::cout << *p << std::endl;
+    return 0;
+}
+a) 1
+b) 2
+c) 3
+d) 4
+
+
+Question 8
+What does the following code print?
+#include <iostream>
+void change(int **p) {
+    int b = 20;
+    *p = &b;
+}
+int main() {
+    int a = 10;
+    int *ptr = &a;
+    change(&ptr);
+    std::cout << *ptr << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) Undefined behavior
+d) Compilation error
+
+
+Question 9
+What will the following code output?
+#include <iostream>
+int main() {
+    int *ptr = nullptr;
+    int val = 5;
+    ptr = &val;
+    std::cout << *ptr << std::endl;
+    return 0;
+}
+a) 0
+b) 5
+c) nullptr
+d) Undefined behavior
+
+
+Question 10
+What does the following code snippet do?
+#include <iostream>
+void func(int *p) {
+    *p = 10;
+}
+int main() {
+    int x = 0;
+    func(&x);
+    std::cout << x << std::endl;
+    return 0;
+}
+a) Outputs 0
+b) Outputs 10
+c) Outputs a garbage value
+d) Causes a runtime error
+
+
+Question 11
+What will be the output of the following program?
+#include <iostream>
+int main() {
+    int x = 5;
+    int *p = &x;
+    int *q = p;
+    *q = 7;
+    std::cout << x << std::endl;
+    return 0;
+}
+a) 5
+b) 7
+c) 0
+d) Undefined behavior
+
+
+Question 12
+What will the following code print?
+#include <iostream>
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    int *p = arr + 1;
+    std::cout << *(p + 1) << std::endl;
+    return 0;
+}
+a) 1
+b) 2
+c) 3
+d) 4
+
+
+Question 13
+What does the following code output?
+#include <iostream>
+int main() {
+    int *ptr = new int(5);
+    std::cout << *ptr << std::endl;
+    delete ptr;
+    return 0;
+}
+a) 0
+b) 5
+c) nullptr
+d) Undefined behavior
+
+
+Question 14
+Which of the following is correct about the new operator? 
+a) It allocates memory on the stack.
+b) It allocates memory on the heap.
+c) It deallocates memory automatically.
+d) It does not call constructors.
+
+
+Question 15
+What is the output of the following code?
+#include <iostream>
+int main() {
+    int x = 10;
+    int y = 20;
+    int *p = &x;
+    *p = y;
+    std::cout << x << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) 0
+d) Undefined behavior
+
+
+Question 16
+What will be the output of the following code?
+#include <iostream>
+int main() {
+    int a = 5, b = 10;
+    int *p = &a, *q = &b;
+    int *r = p;
+    r = q;
+    std::cout << *r << std::endl;
+    return 0;
+}
+a) 5
+b) 10
+c) 0
+d) Undefined behavior
+
+
+Question 17
+What will the following code output?
+#include <iostream>
+int main() {
+    int x = 10;
+    int *p = new int;
+    p = &x;
+    std::cout << *p << std::endl;
+    delete p;
+    return 0;
+}
+a) 10
+b) Undefined behavior
+c) Compilation error
+d) 0
+
+
+Question 18
+What will be the output of the following code?
+#include <iostream>
+int main() {
+    int arr[3] = {1, 2, 3};
+    int *p = arr;
+    *(p + 1) = 10;
+    std::cout << arr[1] << std::endl;
+    return 0;
+}
+a) 1
+b) 2
+c) 10
+d) Undefined behavior
+
+
+Question 19
+What will the following code print?
+#include <iostream>
+void set_value(int *p) {
+    *p = 42;
+}
+int main() {
+    int value = 0;
+    set_value(&value);
+    std::cout << value << std::endl;
+    return 0;
+}
+a) 0
+b) 42
+c) Undefined behavior
+d) Compilation error
+
+
+Question 20
+What will be the result of the following code?
+#include <iostream>
+int main() {
+    int x = 5;
+    int *p1 = &x;
+    int *p2 = p1;
+    *p2 = 10;
+    std::cout << x << std::endl;
+    return 0;
+}
+a) 5
+b) 10
+c) 0
+d) Undefined behavior
+
+
+Question 21
+What will the following code output?
+#include <iostream>
+int main() {
+    int a = 5, b = 10;
+    int *p1 = &a;
+    int *p2 = &b;
+    *p1 = *p2;
+    std::cout << a << std::endl;
+    return 0;
+}
+a) 5
+b) 10
+c) 0
+d) Undefined behavior
+
+
+Question 22
+What will be the output of the following code?
+#include <iostream>
+void modify(int *p) {
+    int q = 20;
+    p = &q;
+}
+int main() {
+    int x = 10;
+    int *ptr = &x;
+    modify(ptr);
+    std::cout << *ptr << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) 0
+d) Undefined behavior
+
+
+Question 23
+What will be the output of the following program?
+#include <iostream>
+int main() {
+    int x = 10;
+    int *p = &x;
+    std::cout << sizeof(p) << std::endl;
+    return 0;
+}
+a) Size of int
+b) Size of int*
+c) Size of int&
+d) Undefined behavior
+
+
+Question 24
+What does the following code print?
+#include <iostream>
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int *p = arr + 3;
+    std::cout << *p << std::endl;
+    return 0;
+}
+a) 1
+b) 3
+c) 4
+d) 5
+
+
+Question 25
+What will be the output of the following code?
+#include <iostream>
+int main() {
+    int a = 10, b = 20;
+    int *p1 = &a, *p2 = &b;
+    p1 = p2;
+    std::cout << *p1 << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) 0
+d) Undefined behavior
+
+
+Question 26
+What will the following code print?
+#include <iostream>
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int *p = arr;
+    std::cout << *(p + 4) << std::endl;
+    return 0;
+}
+a) 1
+b) 2
+c) 4
+d) 5
+
+
+Question 27
+What will be the output of the following code?
+#include <iostream>
+int main() {
+    int x = 5;
+    int *p = &x;
+    *p = 10;
+    p = nullptr;
+    std::cout << x << std::endl;
+    return 0;
+}
+a) 0
+b) 5
+c) 10
+d) Undefined behavior
+
+
+Question 28
+What does the following code output?
+#include <iostream>
+int main() {
+    int x = 100;
+    int *p = &x;
+    int y = *p + 10;
+    std::cout << y << std::endl;
+    return 0;
+}
+a) 100
+b) 110
+c) 0
+d) Undefined behavior
+
+
+Question 29
+What will be the output of the following code?
+#include <iostream>
+void func(int **p) {
+    int x = 10;
+    *p = &x;
+}
+int main() {
+    int y = 20;
+    int *ptr = &y;
+    func(&ptr);
+    std::cout << *ptr << std::endl;
+    return 0;
+}
+a) 10
+b) 20
+c) Undefined behavior
+d) Compilation error
+
+
+Question 30
+What will be the output of the following code?
+#include <iostream>
+int main() {
+    int a = 5;
+    int *p = &a;
+    *p += 1;
+    std::cout << *p << std::endl;
+    return 0;
+}
+a) 5
+b) 6
+c) 0
+d) Undefined behavior
+
+
