@@ -19,7 +19,7 @@ int main()
 {
     int arr[] = {44, 33, 55, 22, 11 };
     int n = sizeof(arr) / sizeof(arr[0]);
-    selectionSort(arr, n);
+    selectionSort(arr, n); 
 
     for(int i=0; i<n; ++i) {
         cout << arr[i] << " ";
