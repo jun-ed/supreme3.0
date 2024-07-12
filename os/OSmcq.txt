@@ -1,0 +1,704 @@
+
+
+1. Which of the following is NOT a primary function of an operating system?
+   a) Resource management
+   b) Process scheduling
+   c) Memory allocation
+   d) Application development
+
+2. In a multiprogramming operating system, what happens when a process goes into a wait state?
+   a) The CPU remains idle
+   b) The process is terminated
+   c) Another process is selected for execution
+   d) The system crashes
+
+3. Which type of operating system was developed at Manchester University in the late 1950s to early 1960s?
+   a) MS-DOS
+   b) ATLAS
+   c) THE
+   d) CTSS
+
+4. What is the main disadvantage of a batch processing operating system?
+   a) Low CPU utilization
+   b) Inability to set priorities
+   c) High memory requirements
+   d) Lack of user interaction
+
+5. In a multitasking operating system, what technique is used to switch between tasks?
+   a) Batch processing
+   b) Context switching
+   c) Multiprogramming
+   d) Distributed computing
+
+6. Which of the following is NOT a characteristic of a distributed operating system?
+   a) Multiple CPUs
+   b) Interconnected nodes
+   c) Centralized control
+   d) Autonomous operation
+
+7. What is the primary difference between a program and a process?
+   a) A program is stored on disk, while a process is in memory
+   b) A program is written in a high-level language, while a process is in machine code
+   c) A program is static, while a process is dynamic
+   d) A program is compiled, while a process is interpreted
+
+8. Which of the following best describes a thread?
+   a) An independent program
+   b) A lightweight process
+   c) A type of system call
+   d) A memory management technique
+
+9. What is the main advantage of multi-threading over multi-tasking?
+   a) Better CPU utilization
+   b) Increased security
+   c) Simplified programming
+   d) Reduced memory usage
+
+10. In the context of operating systems, what does IPC stand for?
+    a) Inter-Process Communication
+    b) Internal Process Control
+    c) Integrated Program Compilation
+    d) Interrupt Priority Control
+
+11. Which type of kernel is known for its high performance due to less user mode to kernel mode switching?
+    a) Microkernel
+    b) Monolithic kernel
+    c) Hybrid kernel
+    d) Nanokernel
+
+12. What is the primary function of a system call?
+    a) To allocate memory
+    b) To create new processes
+    c) To request services from the kernel
+    d) To manage file systems
+
+13. Which of the following is NOT a typical component of a Process Control Block (PCB)?
+    a) Process ID
+    b) Program counter
+    c) Register contents
+    d) Source code
+
+14. What is the role of the BIOS in the boot process?
+    a) To load the operating system
+    b) To initialize and test hardware
+    c) To manage system resources
+    d) To provide a user interface
+
+15. What is the maximum amount of physical memory that can be addressed by a 32-bit operating system?
+    a) 2 GB
+    b) 4 GB
+    c) 8 GB
+    d) 16 GB
+
+16. Which of the following is NOT an advantage of a 64-bit operating system over a 32-bit system?
+    a) Larger addressable memory
+    b) Improved security
+    c) Better performance for certain tasks
+    d) Lower power consumption
+
+17. What is the primary purpose of cache memory?
+    a) To store frequently used data and instructions
+    b) To replace main memory
+    c) To increase storage capacity
+    d) To improve graphics performance
+
+18. In the context of process states, what does the "New" state represent?
+    a) The process is currently executing
+    b) The process is waiting for I/O
+    c) The process is being created
+    d) The process has finished execution
+
+19. Which scheduler is responsible for selecting processes from the job queue and loading them into memory?
+    a) Short-term scheduler
+    b) Long-term scheduler
+    c) Medium-term scheduler
+    d) I/O scheduler
+
+20. What is the main function of the ready queue in process management?
+    a) To store terminated processes
+    b) To hold processes waiting for I/O
+    c) To keep track of new processes
+    d) To maintain processes ready for execution
+
+21. Which of the following best describes the concept of multiprogramming?
+    a) Running multiple programs on multiple CPUs
+    b) Keeping multiple programs in memory for execution
+    c) Allowing multiple users to access a system simultaneously
+    d) Executing multiple threads within a single process
+
+22. What is the primary purpose of the stack in a process's memory layout?
+    a) To store global variables
+    b) To manage heap allocations
+    c) To keep track of function calls and local variables
+    d) To store the program's executable code
+
+23. In the context of operating systems, what does the term "spooling" refer to?
+    a) A type of process scheduling
+    b) A memory management technique
+    c) A method for handling I/O operations
+    d) A file system organization strategy
+
+24. Which of the following is NOT a typical function of a microkernel?
+    a) Process management
+    b) Memory management
+    c) File system management
+    d) Basic communication facilities
+
+25. What is the main advantage of a hybrid kernel over a microkernel?
+    a) Smaller size
+    b) Better stability
+    c) Improved performance
+    d) Enhanced security
+
+26. In the boot process, what is the primary function of a bootloader?
+    a) To perform hardware diagnostics
+    b) To load the operating system kernel
+    c) To manage system resources
+    d) To provide a user interface
+
+27. What is the key difference between primary and secondary storage?
+    a) Cost
+    b) Capacity
+    c) Volatility
+    d) Access speed
+
+28. Which of the following best describes the concept of context switching?
+    a) Changing user accounts
+    b) Switching between applications
+    c) Saving and restoring process state
+    d) Altering system configurations
+
+29. What is the primary purpose of the Process Control Block (PCB)?
+    a) To store the process's source code
+    b) To manage the process's I/O operations
+    c) To maintain information about the process
+    d) To allocate CPU time to the process
+
+30. Which of the following is NOT a typical attribute stored in a PCB?
+    a) Process ID
+    b) Program counter
+    c) Register contents
+    d) Source code comments
+
+31. In operating systems, what does the term "thrashing" refer to?
+    a) Excessive page faults
+    b) Rapid process creation and termination
+    c) Frequent context switching
+    d) Continuous CPU usage by a single process
+
+32. What is the primary purpose of virtual memory?
+    a) To increase CPU speed
+    b) To extend physical memory using disk space
+    c) To improve graphics performance
+    d) To enhance network communication
+
+33. Which scheduling algorithm is most likely to cause starvation?
+    a) Round Robin
+    b) First-Come, First-Served
+    c) Shortest Job First
+    d) Priority Scheduling
+
+34. What is the main purpose of semaphores in operating systems?
+    a) To manage file systems
+    b) To control access to shared resources
+    c) To allocate CPU time
+    d) To handle interrupt requests
+
+35. Which of the following best describes the concept of deadlock?
+    a) A process that consumes excessive CPU time
+    b) A situation where two or more processes are unable to proceed
+    c) A memory leak in the operating system
+    d) A type of malware that affects system performance
+
+36. What is the primary function of a device driver?
+    a) To manage system memory
+    b) To schedule processes
+    c) To provide an interface between the OS and hardware devices
+    d) To handle user authentication
+
+37. In the context of file systems, what does "journaling" refer to?
+    a) A method of defragmenting files
+    b) A technique for compressing data
+    c) A way of tracking file system changes to ensure consistency
+    d) A process of encrypting sensitive files
+
+38. Which of the following is NOT a common page replacement algorithm?
+    a) FIFO (First-In-First-Out)
+    b) LRU (Least Recently Used)
+    c) Optimal
+    d) LIFO (Last-In-First-Out)
+
+39. What is the primary purpose of a Translation Lookaside Buffer (TLB)?
+    a) To store frequently used data
+    b) To speed up virtual-to-physical address translation
+    c) To manage process scheduling
+    d) To handle interrupt requests
+
+40. Which of the following best describes the concept of a race condition?
+    a) A competition between processes for CPU time
+    b) A situation where the outcome depends on the timing of events
+    c) A method of prioritizing high-performance processes
+    d) A technique for optimizing memory access
+
+41. What is the main purpose of the fork() system call in Unix-like operating systems?
+    a) To terminate a process
+    b) To create a new process
+    c) To allocate memory
+    d) To handle file I/O
+
+42. Which of the following is NOT a typical function of a file system?
+    a) Managing free space
+    b) Implementing file access methods
+    c) Allocating CPU time to processes
+    d) Maintaining file metadata
+
+43. What is the primary purpose of a shell in an operating system?
+    a) To manage system security
+    b) To provide a user interface for interacting with the OS
+    c) To handle network communications
+    d) To allocate system resources
+
+44. Which of the following best describes the concept of fragmentation in memory management?
+    a) The process of breaking large files into smaller pieces
+    b) The occurrence of small, unusable memory blocks
+    c) The compression of data to save storage space
+    d) The encryption of sensitive memory areas
+
+45. What is the main advantage of using a multilevel queue scheduling algorithm?
+    a) Simplicity of implementation
+    b) Fairness to all processes
+    c) Ability to prioritize different types of processes
+    d) Guaranteed CPU time for each process
+
+46. In the context of operating systems, what does the term "context" in "context switch" refer to?
+    a) The current user logged into the system
+    b) The state of the CPU and process-specific data
+    c) The type of application running
+    d) The network connection status
+
+47. Which of the following is NOT a typical method of inter-process communication?
+    a) Shared memory
+    b) Message passing
+    c) Pipes
+    d) Direct memory access
+
+48. What is the primary purpose of a page table in virtual memory systems?
+    a) To store frequently accessed data
+    b) To map virtual addresses to physical addresses
+    c) To manage process scheduling
+    d) To handle file system operations
+
+49. Which of the following best describes the concept of thrashing in an operating system?
+    a) Excessive swapping of processes in and out of memory
+    b) Rapid creation and deletion of files
+    c) Continuous CPU usage by a single process
+    d) Frequent network packet collisions
+
+50. What is the main purpose of the chmod command in Unix-like operating systems?
+    a) To change file ownership
+    b) To modify file permissions
+    c) To move files between directories
+    d) To create new user accounts
+
+51. In the context of operating systems, what does the term "zombie process" refer to?
+    a) A process that consumes excessive resources
+    b) A terminated process whose entry remains in the process table
+    c) A malicious process that infects other processes
+    d) A process that cannot be terminated by normal means
+
+52. Which of the following best describes the concept of a critical section in concurrent programming?
+    a) A portion of code that must be executed atomically
+    b) A section of memory that cannot be modified
+    c) A part of the operating system kernel
+    d) A high-priority process that cannot be interrupted
+
+53. What is the primary purpose of the setuid bit in Unix file permissions?
+    a) To make a file executable
+    b) To allow a program to run with the privileges of its owner
+    c) To prevent a file from being modified
+    d) To hide a file from normal directory listings
+
+54. Which scheduling algorithm is most likely to minimize average waiting time for short processes?
+    a) First-Come, First-Served
+    b) Round Robin
+    c) Shortest Job First
+    d) Priority Scheduling
+
+55. What is the main purpose of a memory management unit (MMU)?
+    a) To allocate CPU time to processes
+    b) To handle virtual-to-physical address translation
+    c) To manage file systems
+    d) To control network communications
+
+56. In the context of file systems, what does the term "inode" refer to?
+    a) A type of file compression
+    b) A data structure that stores file metadata
+    c) A method of encrypting files
+    d) A technique for defragmenting disks
+
+57. Which of the following best describes the concept of a race condition?
+    a) A competition between processes for CPU time
+    b) A situation where the outcome depends on the timing of events
+    c) A method of prioritizing high-performance processes
+    d) A technique for optimizing memory access
+
+58. What is the primary purpose of the nice command in Unix-like systems?
+    a) To terminate a process gracefully
+    b) To change process priority
+    c) To create a new user account
+    d) To modify file permissions
+
+59. Which of the following is NOT a typical function of a device driver?
+    a) Translating OS commands into device-specific commands
+    b) Managing device power states
+    c) Handling device interrupts
+    d) Allocating system memory
+
+60. What is the main purpose of the copy-on-write technique in operating systems?
+    a) To improve file system performance
+    b) To optimize network packet transmission
+    c) To reduce memory usage when duplicating data structures
+    d) To enhance CPU scheduling efficiency
+
+61. In the context of operating systems, what does the term "thrashing" refer to?
+    a) Excessive page faults leading to performance degradation
+    b) Rapid process creation and termination
+    c) Continuous CPU usage by a single process
+    d) Frequent context switching between processes
+
+62. Which of the following best describes the purpose of a reentrant function in operating systems?
+    a) A function that can be safely called by multiple processes simultaneously
+    b) A function that can only be called once during system execution
+    c) A function that handles system interrupts
+    d) A function that manages process priorities
+
+63. What is the primary purpose of the fork bomb in the context of operating systems?
+    a) To test system security
+    b) To optimize process creation
+    c) To deliberately crash a system by exhausting resources
+    d) To improve inter-process communication
+
+64. Which of the following is NOT a typical method of handling deadlocks?
+    a) Deadlock prevention
+    b) Deadlock avoidance
+    c) Deadlock detection and recovery
+    d) Deadlock propagation
+
+65. What is the main purpose of the slab allocation method in memory management?
+    a) To reduce external fragmentation
+    b) To improve CPU cache utilization
+    c) To handle large file transfers
+    d) To optimize process scheduling
+
+66. In the context of file systems, what does the term "extent" refer to?
+    a) A contiguous area of storage allocated to a file
+    b) The maximum allowed file size
+    c) A method of file compression
+    d) A technique for securing file access
+
+67. Which of the following best describes the concept of a spinlock?
+    a) A locking mechanism that uses busy-waiting
+    b) A technique for optimizing disk seek times
+    c) A method of prioritizing process execution
+    d) A way of managing virtual memory
+
+68. What is the primary purpose of the mmap() system call in Unix-like systems?
+    a) To allocate memory
+    b) To map files or devices into memory
+    c) To create new processes
+    d) To handle network connections
+
+69. Which scheduling algorithm is most likely to cause the convoy effect?
+    a) Round Robin
+    b) Shortest Job First
+    c) First-Come, First-Served
+    d) Multilevel Feedback Queue
+
+70. What is the main purpose of the dirty bit in page table entries?
+    a) To indicate that a page has been modified
+    b) To mark a page as read-only
+    c) To signal that a page is currently in use
+    d) To denote a page as non-executable
+
+71. In the context of operating systems, what does the term "thrashing" refer to?
+  
+
+72. What is the primary purpose of the copy-on-write technique in operating systems?
+    a) To improve file system performance
+    b) To optimize network packet transmission
+    c) To reduce memory usage when duplicating data structures
+    d) To enhance CPU scheduling efficiency
+
+73. In the context of operating systems, what does the term "thrashing" refer to?
+    a) Excessive page faults leading to performance degradation
+    b) Rapid process creation and termination
+    c) Continuous CPU usage by a single process
+    d) Frequent context switching between processes
+
+74. Which of the following best describes the purpose of a reentrant function in operating systems?
+    a) A function that can be safely called by multiple processes simultaneously
+    b) A function that can only be called once during system execution
+    c) A function that handles system interrupts
+    d) A function that manages process priorities
+
+75. What is the primary purpose of the fork bomb in the context of operating systems?
+    a) To test system security
+    b) To optimize process creation
+    c) To deliberately crash a system by exhausting resources
+    d) To improve inter-process communication
+
+76. Which of the following is NOT a typical method of handling deadlocks?
+    a) Deadlock prevention
+    b) Deadlock avoidance
+    c) Deadlock detection and recovery
+    d) Deadlock propagation
+
+77. What is the main purpose of the slab allocation method in memory management?
+    a) To reduce external fragmentation
+    b) To improve CPU cache utilization
+    c) To handle large file transfers
+    d) To optimize process scheduling
+
+78. In the context of file systems, what does the term "extent" refer to?
+    a) A contiguous area of storage allocated to a file
+    b) The maximum allowed file size
+    c) A method of file compression
+    d) A technique for securing file access
+
+79. Which of the following best describes the concept of a spinlock?
+    a) A locking mechanism that uses busy-waiting
+    b) A technique for optimizing disk seek times
+    c) A method of prioritizing process execution
+    d) A way of managing virtual memory
+
+80. What is the primary purpose of the mmap() system call in Unix-like systems?
+    a) To allocate memory
+    b) To map files or devices into memory
+    c) To create new processes
+    d) To handle network connections
+
+81. Which scheduling algorithm is most likely to cause the convoy effect?
+    a) Round Robin
+    b) Shortest Job First
+    c) First-Come, First-Served
+    d) Multilevel Feedback Queue
+
+82. What is the main purpose of the dirty bit in page table entries?
+    a) To indicate that a page has been modified
+    b) To mark a page as read-only
+    c) To signal that a page is currently in use
+    d) To denote a page as non-executable
+
+83. In the context of operating systems, what does the term "live lock" refer to?
+    a) A situation where processes are unable to proceed due to resource contention
+    b) A condition where processes continuously change their states without making progress
+    c) A deadlock that occurs in distributed systems
+    d) A method of process synchronization
+
+84. Which of the following best describes the purpose of a microkernel architecture?
+    a) To minimize the size of the kernel by moving non-essential components to user space
+    b) To improve system performance by including all services in the kernel
+    c) To enhance security by running all processes in kernel mode
+    d) To simplify the development of device drivers
+
+85. What is the primary function of the Translation Lookaside Buffer (TLB) in virtual memory systems?
+    a) To store frequently used data
+    b) To cache virtual-to-physical address translations
+    c) To manage process scheduling
+    d) To handle interrupt requests
+
+86. Which of the following is NOT a typical component of a Process Control Block (PCB)?
+    a) Process ID
+    b) Program counter
+    c) Register contents
+    d) Source code
+
+87. What is the main purpose of the nice command in Unix-like systems?
+    a) To terminate a process gracefully
+    b) To change process priority
+    c) To create a new user account
+    d) To modify file permissions
+
+88. In the context of operating systems, what does the term "thrashing" refer to?
+    a) Excessive page faults leading to performance degradation
+    b) Rapid process creation and termination
+    c) Continuous CPU usage by a single process
+    d) Frequent context switching between processes
+
+89. Which of the following best describes the purpose of a reentrant function in operating systems?
+    a) A function that can be safely called by multiple processes simultaneously
+    b) A function that can only be called once during system execution
+    c) A function that handles system interrupts
+    d) A function that manages process priorities
+
+90. What is the primary purpose of the fork bomb in the context of operating systems?
+    a) To test system security
+    b) To optimize process creation
+    c) To deliberately crash a system by exhausting resources
+    d) To improve inter-process communication
+
+91. Which of the following is NOT a typical method of handling deadlocks?
+    a) Deadlock prevention
+    b) Deadlock avoidance
+    c) Deadlock detection and recovery
+    d) Deadlock propagation
+
+92. What is the main purpose of the slab allocation method in memory management?
+    a) To reduce external fragmentation
+    b) To improve CPU cache utilization
+    c) To handle large file transfers
+    d) To optimize process scheduling
+
+93. In the context of file systems, what does the term "extent" refer to?
+    a) A contiguous area of storage allocated to a file
+    b) The maximum allowed file size
+    c) A method of file compression
+    d) A technique for securing file access
+
+94. Which of the following best describes the concept of a spinlock?
+    a) A locking mechanism that uses busy-waiting
+    b) A technique for optimizing disk seek times
+    c) A method of prioritizing process execution
+    d) A way of managing virtual memory
+
+95. What is the primary purpose of the mmap() system call in Unix-like systems?
+    a) To allocate memory
+    b) To map files or devices into memory
+    c) To create new processes
+    d) To handle network connections
+
+96. Which scheduling algorithm is most likely to cause the convoy effect?
+    a) Round Robin
+    b) Shortest Job First
+    c) First-Come, First-Served
+    d) Multilevel Feedback Queue
+
+97. What is the main purpose of the dirty bit in page table entries?
+    a) To indicate that a page has been modified
+    b) To mark a page as read-only
+    c) To signal that a page is currently in use
+    d) To denote a page as non-executable
+
+98. In the context of operating systems, what does the term "live lock" refer to?
+    a) A situation where processes are unable to proceed due to resource contention
+    b) A condition where processes continuously change their states without making progress
+    c) A deadlock that occurs in distributed systems
+    d) A method of process synchronization
+
+99. Which of the following best describes the purpose of a microkernel architecture?
+    a) To minimize the size of the kernel by moving non-essential components to user space
+    b) To improve system performance by including all services in the kernel
+    c) To enhance security by running all processes in kernel mode
+    d) To simplify the development of device drivers
+
+100. What is the primary function of the Translation Lookaside Buffer (TLB) in virtual memory systems?
+     a) To store frequently used data
+     b) To cache virtual-to-physical address translations
+     c) To manage process scheduling
+     d) To handle interrupt requests
+
+
+
+1. d) Application development
+2. c) Another process is selected for execution
+3. b) ATLAS
+4. d) Lack of user interaction
+5. b) Context switching
+6. c) Centralized control
+7. c) A program is static, while a process is dynamic
+8. b) A lightweight process
+9. a) Better CPU utilization
+10. a) Inter-Process Communication
+11. b) Monolithic kernel
+12. c) To request services from the kernel
+13. d) Source code
+14. b) To initialize and test hardware
+15. b) 4 GB
+16. d) Lower power consumption
+17. a) To store frequently used data and instructions
+18. c) The process is being created
+19. b) Long-term scheduler
+20. d) To maintain processes ready for execution
+21. b) Keeping multiple programs in memory for execution
+22. c) To keep track of function calls and local variables
+23. c) A method for handling I/O operations
+24. c) File system management
+25. c) Improved performance
+26. b) To load the operating system kernel
+27. c) Volatility
+28. c) Saving and restoring process state
+29. c) To maintain information about the process
+30. d) Source code comments
+31. a) Excessive page faults
+32. b) To extend physical memory using disk space
+33. c) Shortest Job First
+34. b) To control access to shared resources
+35. b) A situation where two or more processes are unable to proceed
+36. c) To provide an interface between the OS and hardware devices
+37. c) A way of tracking file system changes to ensure consistency
+38. d) LIFO (Last-In-First-Out)
+39. b) To speed up virtual-to-physical address translation
+40. b) A situation where the outcome depends on the timing of events
+41. b) To create a new process
+42. c) Allocating CPU time to processes
+43. b) To provide a user interface for interacting with the OS
+44. b) The occurrence of small, unusable memory blocks
+45. c) Ability to prioritize different types of processes
+46. b) The state of the CPU and process-specific data
+47. d) Direct memory access
+48. b) To map virtual addresses to physical addresses
+49. a) Excessive swapping of processes in and out of memory
+50. b) To modify file permissions
+51. b) A terminated process whose entry remains in the process table
+52. a) A portion of code that must be executed atomically
+53. b) To allow a program to run with the privileges of its owner
+54. c) Shortest Job First
+55. b) To handle virtual-to-physical address translation
+56. b) A data structure that stores file metadata
+57. b) A situation where the outcome depends on the timing of events
+58. b) To change process priority
+59. d) Allocating system memory
+60. c) To reduce memory usage when duplicating data structures
+61. a) Excessive page faults leading to performance degradation
+62. a) A function that can be safely called by multiple processes simultaneously
+63. c) To deliberately crash a system by exhausting resources
+64. d) Deadlock propagation
+65. b) To improve CPU cache utilization
+66. a) A contiguous area of storage allocated to a file
+67. a) A locking mechanism that uses busy-waiting
+68. b) To map files or devices into memory
+69. c) First-Come, First-Served
+70. a) To indicate that a page has been modified
+71. a) Excessive page faults leading to performance degradation
+72. c) To reduce memory usage when duplicating data structures
+73. a) Excessive page faults leading to performance degradation
+74. a) A function that can be safely called by multiple processes simultaneously
+75. c) To deliberately crash a system by exhausting resources
+76. d) Deadlock propagation
+77. b) To improve CPU cache utilization
+78. a) A contiguous area of storage allocated to a file
+79. a) A locking mechanism that uses busy-waiting
+80. b) To map files or devices into memory
+81. c) First-Come, First-Served
+82. a) To indicate that a page has been modified
+83. b) A condition where processes continuously change their states without making progress
+84. a) To minimize the size of the kernel by moving non-essential components to user space
+85. b) To cache virtual-to-physical address translations
+86. d) Source code
+87. b) To change process priority
+88. a) Excessive page faults leading to performance degradation
+89. a) A function that can be safely called by multiple processes simultaneously
+90. c) To deliberately crash a system by exhausting resources
+91. d) Deadlock propagation
+92. b) To improve CPU cache utilization
+93. a) A contiguous area of storage allocated to a file
+94. a) A locking mechanism that uses busy-waiting
+95. b) To map files or devices into memory
+96. c) First-Come, First-Served
+97. a) To indicate that a page has been modified
+98. b) A condition where processes continuously change their states without making progress
+99. a) To minimize the size of the kernel by moving non-essential components to user space
+100. b) To cache virtual-to-physical address translations
+
+
+-By Juned Aslam
