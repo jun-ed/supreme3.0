@@ -2,8 +2,13 @@
 using namespace std;
 
 int main(){
-    int a = 0, x;
-    x = ++a * --a;
+    int a = 5;
+    int& x = a;
+    x = a++;
+    a = x++;
+    x = a;
 
-    cout<<++a<<" "<<a++<<" "<<x<<endl;
+    a = x;
+
+    cout<<a<<" "<<x<<" "<<endl;
 }
