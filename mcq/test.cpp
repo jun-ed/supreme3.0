@@ -2,13 +2,7 @@
 using namespace std;
 
 int main(){
-    int a = 5;
-    int& x = a;
-    x = a++;
-    a = x++;
-    x = a;
-
-    a = x;
-
-    cout<<a<<" "<<x<<" "<<endl;
+    int main;
+    main = 5;
+    cout << ++main <<endl;
 }
